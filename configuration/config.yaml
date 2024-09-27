@@ -1,0 +1,11 @@
+ispindel:
+  prometheus:
+    address: "localhost"
+    port: "9090"
+  littlebock:
+    serverAdress: "www.littlebock.fr"
+    serverUrl: "/api/log/ispindle/XXXX/YYYY"
+  name: "ispindel"
+  synchronisation:
+    interval: "15m"
+    timeout: "90d"

@@ -14,6 +14,9 @@ def main():
     if config:
         logger.info("Loaded configuration : %s", config)
         # TODO stuff
+
+        hose.get_metric_value(config=config, metric_name="temperature")
+
     logger.info('Transfer-Hose exited !')
 
 

@@ -1,6 +1,6 @@
 ispindel:
   prometheus:
-    address: "localhost"
+    host: "http://192.168.0.2"
     port: "9090"
   littlebock:
     serverAdress: "www.littlebock.fr"

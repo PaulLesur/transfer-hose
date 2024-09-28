@@ -7,5 +7,5 @@ ispindel:
     serverAdress: "http://www.littlebock.fr"
   name: "ispindel"
   synchronisation:
-    interval: "15m"
-    timeout: "90d"
+    intervalMinutes: 30
+    timeoutDays: 90

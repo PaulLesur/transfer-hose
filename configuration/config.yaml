@@ -3,8 +3,8 @@ ispindel:
     host: "http://192.168.0.2"
     port: "9090"
   littlebock:
-    serverAdress: "www.littlebock.fr"
     serverUrl: "/api/log/ispindle/XXXX/YYYY"
+    serverAdress: "http://www.littlebock.fr"
   name: "ispindel"
   synchronisation:
     interval: "15m"
